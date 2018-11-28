@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Basketball_Team_App3", "Basketball_Team_App3\Basketball_Team_App3.sqlproj", "{C8B8FDF7-5989-4FC1-BCF3-8F7305A5F012}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basketball_Web1", "Basketball_Web1\Basketball_Web1.csproj", "{9FA67382-5D7A-4E7D-8847-4643F82F6B52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{C8B8FDF7-5989-4FC1-BCF3-8F7305A5F012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8B8FDF7-5989-4FC1-BCF3-8F7305A5F012}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C8B8FDF7-5989-4FC1-BCF3-8F7305A5F012}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9FA67382-5D7A-4E7D-8847-4643F82F6B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA67382-5D7A-4E7D-8847-4643F82F6B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA67382-5D7A-4E7D-8847-4643F82F6B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA67382-5D7A-4E7D-8847-4643F82F6B52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Match]
+(
+	[MatchID] INT NOT NULL PRIMARY KEY IDENTITY(1,1), 
+    [DateTime] DATETIME NOT NULL, 
+    [Venue] NVARCHAR(50) NOT NULL, 
+	[Forfeit] BIT NOT NULL,
+    [AmountPayed] NVARCHAR(50) NOT NULL, 
+    [MemberID] INT FOREIGN KEY REFERENCES Members (MemberID) NOT NULL
+)
